@@ -1,0 +1,136 @@
+body {
+  padding: 50px 0 0 0;
+  margin-top: 2%;
+  margin-left: 40%;
+  background: #373441;
+}
+
+span {
+  display: inline-block;
+}
+
+.face {
+  display: block;
+  content: '';
+  width: 250px;
+  height: 250px;
+  border: solid 25px #FAFAFB;
+  border-radius: 50%;
+  background: #F76943;
+  position: absolute;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.taiko-face {
+  display: block;
+  content: '';
+  width: 250px;
+  height: 250px;
+  border: none;
+  border-radius: 50%;
+  background: #F76943;
+  position: relative;
+}
+
+.circle {
+  cintent: '';
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: #F76943;
+  position: relative;
+  cursor: pointer;
+}
+
+#redOne {
+  background: #F76943;
+}
+
+#blueOne {
+  background: #69B9C4;
+  transform: translateX(190px);
+}
+
+.round-eye {
+  width: 50px;
+  height: 50px;
+  top: 83px;
+  border-radius: 50%;
+  position: absolute;
+  background: #211A1C;
+}
+
+.left-eye {
+  left: 25px;
+}
+
+.right-eye {
+  left: 175px;
+}
+
+.mouth-arc {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: solid 4px #211A1C;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.left-mouth {
+  transform: translateX(70px) translateY(125px) rotateZ(33deg);
+}
+
+.right-mouth {
+  transform: translateX(124px) translateY(125px) rotateZ(43deg);
+}
+
+.cheek-arc {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: solid 4px #211A1C;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  overflow: hidden;
+  background: #F76943;
+  z-index: -1;
+}
+
+.rotated-cheek {
+  transform: translateX(160px) translateY(151px) rotateZ(145deg);
+}
+
+.chu-arc {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  border: solid 3px #211A1C;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.up-chu {
+  transform: translateX(95px) translateY(130px) rotateZ(120deg);
+}
+
+.sup-up-chu {
+  transform: translateX(95px) translateY(129px) rotateZ(180deg);
+}
+
+.down-chu {
+  transform: translateX(95px) translateY(178px) rotateZ(150deg);
+}
+
+.sup-down-chu {
+  transform: translateX(95px) translateY(178px) rotateZ(88deg);
+}
